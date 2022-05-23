@@ -1,0 +1,72 @@
+{
+  "name": "brick-template-h5",
+  "publishPath": {
+    "prod": {
+      "path": "./build",
+      "lockAfter": "test"
+    },
+    "temp": {
+      "path": "./build"
+    },
+    "test": {
+      "path": "./build"
+    },
+    "big-file": {
+      "path": "./big-file"
+    }
+  },
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@sentry/browser": "^6.19.7",
+    "autobg.macro": "^1.0.6",
+    "axios": "^0.27.2",
+    "core-js": "^3.22.6",
+    "md5": "^2.3.0",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "react": "17.0.2",
+    "regenerator-runtime": "^0.13.9",
+    "styled-components": "^5.3.5",
+    "vconsole": "3.3.4"
+  },
+  "scripts": {
+    "api-gen": "node ./api_gen.js",
+    "cimg": "node ./src/rpf/un/_cimg --path=./src/assets",
+    "start": "craco start",
+    "build": "craco build",
+    "up-big": "charon publish big-file",
+    "dep-test": "node ./deploy.js --env=test",
+    "dep-temp": "node ./deploy.js --env=temp",
+    "dep-prod": "node ./deploy.js --env=prod"
+  },
+  "browserslist": {
+    "production": [
+      "> 1%",
+      "ios >= 8",
+      "android >= 4",
+      "chrome >= 36",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "chalk": "4.1.2",
+    "@craco/craco": "6.4.0",
+    "cross-env": "^7.0.3",
+    "image-size": "^1.0.1",
+    "shelljs": "^0.8.5",
+    "typescript": "^4.6.4",
+    "postcss": "^8.4.14"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  }
+}
