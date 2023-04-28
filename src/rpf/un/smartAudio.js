@@ -26,7 +26,6 @@ const env = {
  *         setAuPaused(paused);
  *       }
  *     });
- *     // 如果是金管家 App，需要先获取 openId 再调用 play 才能自动播放
  *     bgmAu.play();
  *     return () => {
  *       bgmAu.destroy();
@@ -70,7 +69,6 @@ const env = {
  *           this.auPaused = paused;
  *         }
  *       });
- *       // 如果是金管家 App，需要先获取 openId 再调用 play 才能自动播放
  *       this.bgmAu.play();
  *     },
  *     beforeDestroy() {

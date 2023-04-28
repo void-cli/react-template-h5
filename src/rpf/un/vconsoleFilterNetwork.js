@@ -19,14 +19,6 @@ const DEFAULT_FILTER_LIST = [
     url: 'https://sdkapi.fibodata.com/track',
     disable: false
   },
-  {
-    url: 'https://elis-smp-ubas-new.lifeapp.pingan.com.cn:433/smp-ubas-dmz/mobile/savePerformanceInfoForH5.do',
-    disable: false
-  },
-  {
-    url: 'https://test-elis-smp-ubas-new.lifeapp.pingan.com.cn:11143/smp-ubas-dmz/mobile/savePerformanceInfoForH5.do',
-    disable: false
-  }
 ];
 
 /**

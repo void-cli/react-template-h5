@@ -28,5 +28,3 @@ yarn-error.log*
 *.rar
 
 .eslintcache
-big-file/*
-!big-file/README.md

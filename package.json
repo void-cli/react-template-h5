@@ -1,44 +1,24 @@
 {
-  "name": "brick-template-h5",
-  "publishPath": {
-    "prod": {
-      "path": "./build",
-      "lockAfter": "test"
-    },
-    "temp": {
-      "path": "./build"
-    },
-    "test": {
-      "path": "./build"
-    },
-    "big-file": {
-      "path": "./big-file"
-    }
-  },
-  "version": "1.0.0",
+  "name": "react-template-h5",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@sentry/browser": "^6.19.7",
     "autobg.macro": "^1.0.6",
     "axios": "^0.27.2",
-    "core-js": "^3.22.6",
-    "md5": "^2.3.0",
-    "react-dom": "17.0.2",
-    "react-scripts": "4.0.3",
+    "core-js": "^3.22.5",
+    "eslint": "^7.11.0",
     "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.3",
     "regenerator-runtime": "^0.13.9",
     "styled-components": "^5.3.5",
-    "vconsole": "3.3.4"
+    "vconsole": "^3.15.0"
   },
   "scripts": {
-    "api-gen": "node ./api_gen.js",
     "cimg": "node ./src/rpf/un/_cimg --path=./src/assets",
     "start": "craco start",
-    "build": "craco build",
-    "up-big": "charon publish big-file",
-    "dep-test": "node ./deploy.js --env=test",
-    "dep-temp": "node ./deploy.js --env=temp",
-    "dep-prod": "node ./deploy.js --env=prod"
+    "build": "craco build"
   },
   "browserslist": {
     "production": [
@@ -56,13 +36,16 @@
     ]
   },
   "devDependencies": {
-    "chalk": "4.1.2",
     "@craco/craco": "6.4.0",
-    "cross-env": "^7.0.3",
-    "image-size": "^1.0.1",
-    "shelljs": "^0.8.5",
-    "typescript": "^4.6.4",
-    "postcss": "^8.4.14"
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "chalk": "4.1.2",
+    "cross-env": "",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.30.1",
+    "image-size": "",
+    "postcss": "",
+    "shelljs": "",
+    "typescript": ""
   },
   "eslintConfig": {
     "extends": [

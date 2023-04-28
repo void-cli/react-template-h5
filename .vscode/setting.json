@@ -1,0 +1,147 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[md]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+        "extensions": [".js", ".vue"]
+    },
+    "eslint.validate": ["javascript", "vue", "html", "vue"],
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "vue": "html",
+        "vue-html": "html"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 27,
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.renderWhitespace": "none",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Meslo LG M for Powerline",
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "terminal.integrated.fontWeightBold": "normal",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "path-intellisense.mappings": {
+        "assets": "${workspaceRoot}/src/assets",
+        "@": "${workspaceRoot}/src/",
+        "/": "${workspaceRoot}/"
+    },
+    "fileheader.configObj": {
+        "autoAdd": false,
+        "autoAlready": false,
+        "createHeader": true,
+        "wideSame": true,
+        "wideNum": 13,
+        "supportAutoLanguage": ["js", "ts", "tsx"]
+    },
+    "fileheader.customMade": {
+        "Author": "cuiguiming",
+        "Date": "Do not edit",
+        "LastEditors": "git config user.name",
+        "LastEditTime": "Do not edit",
+        "Description": "Description"
+    },
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "gitlens.views.repositories.files.layout": "list",
+    "files.associations": {
+        "*.wxss": "css",
+        "*.wxml": "wxml",
+        "*.cjson": "jsonc",
+        "*.wxs": "javascript"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+
+    "git.confirmSync": false,
+
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "auto-close-tag.activationOnLanguage": [
+        "wxml",
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "vetur.format.options.tabSize": 4,
+    "editor.tabSize": 4,
+    "prettier.printWidth": 100, 
+    "prettier.tabWidth": 4, 
+    "prettier.useTabs": false, 
+    "prettier.semi": true, 
+    "prettier.singleQuote": true, 
+    "prettier.proseWrap": "preserve", 
+    "prettier.arrowParens": "avoid",
+    "prettier.bracketSpacing": true, 
+    "prettier.endOfLine": "auto", 
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.jsxBracketSameLine": false, 
+    "prettier.jsxSingleQuote": false, 
+    "prettier.trailingComma": "es5"
+}

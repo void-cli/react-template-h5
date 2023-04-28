@@ -18,7 +18,6 @@ import { isFunction } from './verify-type';
 /**
  * 添加一个网页前后台状态变化的事件
  * - 最低兼容至 Android 4.4 和 iOS 8
- * - 金管家内部可以使用 PALifeOpen.setOnFocus 替代 https://tzxmcy.yuque.com/tzxmcy/wiki/gc9h7r#9HG3R；
  *
  * 使用场景：
  * - 跳外链做任务，返回时检查任务是否完成的业务逻辑；
