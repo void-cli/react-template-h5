@@ -2,7 +2,7 @@
 
 用于写简单demo或者小项目的react模板（默认支持typescrpit、styled-component、react-router、axios）
 
-- react 17.0.2
+- react使用版本17.0.2
 
 ## npm scripts
 
